@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+
+}
+
+div.poster {
+    background-color: black;
+    width: 75%;
+}
+
+div.small {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 0, 140);
+}
+
+div.text { 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: rgb(236, 0, 140);
+}
+
+div.text.one {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 5%;
+}
+
+div.text.two {
+    font-size: 60px;
+    text-transform: lowercase;
+    opacity: 50%;
+}
+
+div.text.three {
+font-size: 100px;
+text-transform: uppercase;
+opacity: 100%;
+
+}

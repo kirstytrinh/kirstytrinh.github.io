@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+
+}
+
+@font-face {
+    font-family: 'Chunky Funks';
+    src: url('Chunky Funks.woff') format('woff') ; 
+}
+
+div.poster {
+    background-color: rgb(250, 146, 81);
+    width: 75%;
+    overflow: hidden;
+}
+
+div.small {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 0, 140);
+}
+
+div.text { 
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: rgb(236, 0, 140);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+div.text.one {
+    font-size: 100px;
+    line-height: 100px;
+    opacity: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+div.text.two {
+    font-size: 160px;
+    line-height: 160px;
+    opacity: 50%;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+div.text.three {
+font-size: 220px;
+line-height: 220px;
+opacity: 100%;
+font-family: 'Chunky Funks';
+
+}
