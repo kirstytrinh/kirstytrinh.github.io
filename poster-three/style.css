@@ -34,7 +34,7 @@ div.text {
 
 div.text.one {
     font-size: 100px;
-    line-height: 100px;
+    line-height: 40px;
     opacity: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
@@ -43,7 +43,7 @@ div.text.one {
 
 div.text.two {
     font-size: 160px;
-    line-height: 160px;
+    line-height: 100px;
     opacity: 50%;
     font-family: 'Times New Roman', Times, serif;
   
@@ -51,7 +51,7 @@ div.text.two {
 
 div.text.three {
 font-size: 220px;
-line-height: 220px;
+line-height: 160px;
 opacity: 100%;
 font-family: 'Chunky Funks';
 
