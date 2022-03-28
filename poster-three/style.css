@@ -32,27 +32,46 @@ div.text {
     justify-content: center;
 }
 
+
+/*rule 1 font size*/
 div.text.one {
     font-size: 100px;
     line-height: 40px;
-    opacity: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-
 }
 
 div.text.two {
     font-size: 160px;
     line-height: 100px;
-    opacity: 50%;
-    font-family: 'Times New Roman', Times, serif;
-  
 }
 
 div.text.three {
-font-size: 220px;
-line-height: 160px;
-opacity: 100%;
-font-family: 'Chunky Funks';
+    font-size: 220px;
+    line-height: 160px;
 
+}
+
+/*rule 2 font family*/
+div.text.a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.text.b {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.text.c {
+    font-family: 'Chunky Funks';
+}
+
+/*rule 3 opacity*/
+div.text.x { 
+    opacity: 0%;
+}
+
+div.text.y {
+    opacity: 50%;
+}
+
+div.text.z {
+opacity: 100%; 
 }

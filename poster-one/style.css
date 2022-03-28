@@ -6,6 +6,7 @@ body {
 div.poster {
     background-color: black;
     width: 75%;
+    overflow: hidden;
 }
 
 div.small {
@@ -25,22 +26,42 @@ div.text {
     color: rgb(236, 0, 140);
 }
 
+/*rule 1 font size*/
 div.text.one {
     font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    opacity: 5%;
 }
 
 div.text.two {
     font-size: 60px;
-    text-transform: lowercase;
-    opacity: 50%;
 }
 
 div.text.three {
 font-size: 100px;
-text-transform: uppercase;
-opacity: 100%;
 
+}
+
+/*rule 2 text transformation*/
+div.text.a {
+    text-transform: uppercase;
+}
+
+div.text.b {
+    text-transform: lowercase;
+}
+
+div.text.c {
+text-transform: uppercase;
+}
+
+/*rule 3 opacity*/
+div.text.x { 
+    opacity: 0%;
+}
+
+div.text.y {
+    opacity: 50%;
+}
+
+div.text.z {
+opacity: 100%; 
 }
