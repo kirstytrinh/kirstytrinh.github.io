@@ -4,9 +4,8 @@ body {
 }
 
 div.poster {
-    background:white;
+    background: black;
     width: 75%;
-    overflow: hidden;
 }
 
 div.container {
@@ -14,6 +13,10 @@ div.container {
    flex-wrap: wrap;
 }
 
+div.col {
+    outline: 1px solid white;
+
+}
 /* thirds*/ 
 div.w1-3 {
     width: 33.33%;
@@ -55,7 +58,8 @@ div.w4-4{
 div.small {
     font-size: 18px;
     text-align: center;
-    padding-top: 15px;
+    padding-bottom: 18px;
+    border-top: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -63,7 +67,7 @@ div.text {
     font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     transition: 0.5s;
-
+    border-top: 1px solid black;
 }
 
 /*rule 1 font-size*/ 
@@ -81,26 +85,26 @@ div.text.three {
 
 /*rule 2 color*/ 
 div.text.a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
 }
 
 div.text.b {
-   font-family: 'Times New Roman', Times, serif; 
+    color: red; 
 }
 
 div.text.c {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
 }
 
 /*rule 3 text align*/
 div.text.x {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 div.text.y {
-    color: blue;
+   background-color: lightpink;
 }
 
 div.text.z {
-    
+    background-color: lightgreen;
 }
