@@ -4,9 +4,10 @@ body {
 }
 
 div.poster {
-    background: royalblue;
+    background-color: white;
     width: 75%;
-    overflow: hidden;
+    
+  
 }
 
 div.container {
@@ -14,22 +15,17 @@ div.container {
    flex-wrap: wrap;
    margin-left: 5px;
    margin-right: 5px;
-   margin-top: 5px;
-   margin-bottom: 5px;
-
+   margin-top: 10px;
 }
-
-
 
 div.header {
     font-size: 19px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif; 
-    overflow: hidden;
-    padding-left: 10px;
-    padding-bottom: 20px;  
+    padding-bottom: 10px;  
     padding-top: 20px;
-    color: rgb(179, 217, 230)
+    padding-left: 5px;
+    color: royalblue;
 }
 
 /* thirds*/ 
@@ -70,11 +66,10 @@ div.w4-4{
 
 
 div.text { 
-    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
-    color: rgb(179, 217, 230)
-
+    color: royalblue;
 }
 
 /*rule 1 font-size*/ 
@@ -90,31 +85,30 @@ div.text.three {
     font-size: 100px;
 }
 
-/*rule 2 color*/ 
+/*rule 2 font family*/ 
 div.text.a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    background-color: lemonchiffon;
+ 
 }
 
 div.text.b {
-   font-family: Arial, Helvetica, sans-serif;
+   outline: solid lemonchiffon;
+   outline-width: 5px;
 }
 
 div.text.c {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    
 }
 
-/*rule 3 text align*/
+/*rule 3 opacity*/
 div.text.x {
-    box-shadow: 7px 7px 5px 7px rgb(42, 66, 139);
+ 
 }
 
 div.text.y {
-   
+
 }
 
 div.text.z {
-
-    
+   
 }
