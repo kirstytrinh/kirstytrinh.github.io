@@ -1,11 +1,10 @@
 body {
-    background-color: white;
+    background-color: black;
 
 }
 
 div.poster {
     background:black;
-    width: 75%;
     overflow: hidden;
     background-image: url(flower.png);
     background-position: center center;
