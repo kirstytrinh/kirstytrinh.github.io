@@ -1,14 +1,11 @@
 body {
     background-color: black;
-
 }
 
 div.poster {
     background-color: white;
     width: 75%;
-    overflow: hidden;
-    
-  
+    overflow: hidden; 
 }
 
 div.container {
@@ -26,6 +23,13 @@ div.header {
     padding-bottom: 15px;  
     padding-top: 20px;
     padding-left: 5px;
+    color: royalblue;
+}
+
+div.text { 
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
     color: royalblue;
 }
 
@@ -65,13 +69,6 @@ div.w4-4{
     width: 100%;
 }
 
-
-div.text { 
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    color: royalblue;
-}
 
 /*rule 1 font-size*/ 
 div.text.one {
