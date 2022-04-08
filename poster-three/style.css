@@ -12,6 +12,8 @@ div.poster {
     background-color: rgb(250, 146, 81);
     width: 75%;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.small {
