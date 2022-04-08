@@ -3,9 +3,10 @@ body {
 }
 
 div.poster {
-    background-color: white;
-    width: 75%;
+    background-color: black;
+    width: 80%;
     overflow: hidden; 
+    
 }
 
 div.container {
