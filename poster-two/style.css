@@ -18,8 +18,8 @@ div.small {
     padding-bottom: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 94, 174);
+    white-space: nowrap;
 }
-
 
 div.text { 
     font-family:Arial, Helvetica, sans-serif;
