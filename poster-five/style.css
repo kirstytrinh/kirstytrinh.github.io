@@ -1,11 +1,9 @@
 body {
     background-color: black;
-
 }
 
 div.poster {
     background: white;
-    
 }
 
 div.container {
@@ -30,12 +28,9 @@ div.header {
 div.w1-3 {
     width: 33.33%;
 }
-
 div.w2-3 {
     width: 66.66%;
-
 }
-
 div.w3-3 {
     width: 100%;
 }
@@ -93,7 +88,6 @@ div.text.b {
     transform: rotate(90deg);
  
 }
-
 
 
 /*rule 3 opacity*/

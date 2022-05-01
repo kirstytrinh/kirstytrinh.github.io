@@ -1,6 +1,5 @@
 body {
     background-color: black;
-
 }
 
 div.poster {
@@ -9,8 +8,7 @@ div.poster {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: auto;
-    
+    margin-bottom: auto; 
 }
 
 div.container {
@@ -24,12 +22,9 @@ div.container {
 div.w1-3 {
     width: 33.33%;
 }
-
 div.w2-3 {
     width: 66.66%;
-
 }
-
 div.w3-3 {
     width: 100%;
 }
@@ -55,8 +50,6 @@ div.w3-4 {
 div.w4-4{
     width: 100%;
 }
-
-
 
 div.header {
     font-size: 70px;
@@ -102,15 +95,4 @@ div.text.c {
     
 }
 
-/*rule 3 text align*/
-div.text.x {
- 
-}
 
-div.text.y {
-   
-}
-
-div.text.z {
-    
-}

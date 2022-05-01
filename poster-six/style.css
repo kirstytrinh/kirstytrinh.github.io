@@ -1,6 +1,5 @@
 body {
     background-color: black;
-
 }
 
 div.poster {
@@ -19,7 +18,6 @@ div.container {
    margin-top: 6px;
    margin-bottom: 6px;
 }
-
 
 div.header {
     font-size: 19px;
@@ -44,12 +42,9 @@ div.text {
 div.w1-3 {
     width: 33.33%;
 }
-
 div.w2-3 {
     width: 66.66%;
-
 }
-
 div.w3-3 {
     width: 100%;
 }
@@ -141,11 +136,9 @@ div.w7-7 {
 div.text.one {
     font-size: 60px;
 }
-
 div.text.two {
     font-size: 80px;
 }
-
 div.text.three {
     font-size: 100px;
 }

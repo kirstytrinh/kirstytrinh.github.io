@@ -7,8 +7,7 @@ div.poster {
     width: 80%;
     overflow: hidden; 
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
 
 div.container {
@@ -40,12 +39,9 @@ div.text {
 div.w1-3 {
     width: 33.33%;
 }
-
 div.w2-3 {
     width: 66.66%;
-
 }
-
 div.w3-3 {
     width: 100%;
 }
@@ -101,15 +97,3 @@ div.text.c {
  
 }
 
-/*rule 3 opacity*/
-div.text.x {
-
-}
-
-div.text.y {
-
-}
-
-div.text.z {
-   
-}

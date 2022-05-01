@@ -38,12 +38,9 @@ div.text {
 div.w1-3 {
     width: 33.33%;
 }
-
 div.w2-3 {
     width: 66.66%;
-
 }
-
 div.w3-3 {
     width: 100%;
 }
@@ -84,7 +81,6 @@ div.text.two {
 div.text.three {
     font-size: 220px;
     line-height: 170px;
-
 }
 
 /*rule 2 font family*/
