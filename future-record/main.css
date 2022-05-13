@@ -37,6 +37,7 @@ div.masthead {
 div.about {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 72px;
+    padding: 10px;
 }
 
 div.title {
@@ -54,8 +55,17 @@ div.keywords{
 div.container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
 }
 
 div.item {
     width: 33.333%;
+    padding: 10px;
 }
+
+div.item-number {
+    font-size: 72px;
+    display: inline;
+}
+
