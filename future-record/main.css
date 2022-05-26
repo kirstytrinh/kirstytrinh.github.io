@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: 'dream orphans';
-    src: url('dream\ orphans.woff') format('woff');
+    src: url('dream.orphans.woff') format('woff');
 }
 
 @font-face {
@@ -16,7 +16,7 @@ body {
 
 @font-face {
     font-family: 'ivymode';
-    src: url('ivymode.woff') format('woff');
+    src: url('IvyMode.woff') format('woff');
 }
 
 img {
