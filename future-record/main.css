@@ -11,12 +11,12 @@ body {
 
 @font-face {
     font-family: "lato";
-    src: url('Lato.woff') format('woff');
+    src: url('lato.woff') format('woff');
 }
 
 @font-face {
     font-family: 'ivymode';
-    src: url('IvyMode.woff') format('woff');
+    src: url('ivymode2.woff') format('woff');
 }
 
 img {
