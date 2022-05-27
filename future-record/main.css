@@ -115,7 +115,7 @@ div.container {
 
 div.item {
     width: 33.333%;
-    padding: 20px;
+    padding: 30px;
 }
 
 img.hover-shadow {
@@ -220,7 +220,7 @@ div.back {
 div.footer {
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid rgb(92, 92, 92);
+    border-top: 1px solid rgb(59, 59, 59);
     margin-top: 25vh;
     padding: 20px;
     font-size: 15px;
