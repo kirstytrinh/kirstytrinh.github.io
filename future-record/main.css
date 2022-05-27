@@ -1,5 +1,5 @@
 body {
-    font-family: 'sanfrancisco';
+    font-family: 'lato';
     font-size: 20px;
     background-color:whitesmoke;
 }
@@ -10,24 +10,19 @@ body {
 }
 
 @font-face {
-    font-family: "lato";
-    src: url('lato2.woff') format('woff');
-}
-
-@font-face {
     font-family: 'ivymode';
     src: url('ivymode2.woff') format('woff');
 }
 @font-face {
-    font-family: 'sanfrancisco';
-    src: url('sanfrancisco.woff') format('woff')
+    font-family: 'lato';
+    src: url('lato2.woff') format('woff')
 }
+
 
 img {
     width: 100%;
     border-radius: 40px;
 }
-
 
 div.header {
     display: flex;
@@ -52,15 +47,9 @@ div.nav {
     padding: 20px;
     text-align: right;
     font-size: 16px;
-    font-family: 'sanfrancisco';
+    font-family: 'lato';
     display: inline;
 }
-
-  
-  /* When the input field gets focus, change its width to 100% */
-  input[type=text]:focus {
-    width: 100%;
-  }
 
 div.nav a {
     margin-left: 40px;
@@ -197,10 +186,18 @@ div.about-title {
 }
 
 div.item-text {
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
     padding: 15px;
     font-weight: bold;
+}
+
+div.item-des {
+    font-size: 13px;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: -8px;
+    color: rgb(101, 101, 101);
 }
 
 div.footer {
@@ -228,7 +225,7 @@ div.footercol {
   color: black; 
   cursor: pointer; 
   padding: 15px;
-  border-radius: 40px; 
+  border-radius: 20px; 
   font-size: 15px; 
   }
   
