@@ -55,10 +55,17 @@ div.nav a {
     margin-left: 40px;
 }
 
-a:hover {
+div.nav a:hover {
     outline: solid 5px blue;
-    padding: 10px;
-    }
+}
+
+div.logo a:hover {
+    outline: solid 5px blue;
+}
+
+div.keywords a:hover {
+    outline: solid 5px blue;
+}
 
 a { 
     color: black;
@@ -78,7 +85,6 @@ div.title {
     font-size: 170px;
     padding-left: 10px;
     letter-spacing: 0.4cm;
-    font-weight: bold;
     margin-top: -5px;
 }
 
@@ -94,8 +100,8 @@ a.buttonkw {
     background-color: rgb(229, 226, 226);
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 1px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 220px;
     margin-left: 40px;
 }
@@ -115,7 +121,7 @@ img.hover-shadow {
     transition: 0.3s;
   }
   
-  .hover-shadow:hover {
+.hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -158,9 +164,13 @@ a.button {
     background-color: rgb(229, 226, 226);
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 1px;
-    padding-bottom: 2px;
-    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+div.back a:hover {
+    outline: solid 5px blue;
 }
 
 div.back {
@@ -225,7 +235,7 @@ div.footercol {
   color: black; 
   cursor: pointer; 
   padding: 15px;
-  border-radius: 20px; 
+  border-radius: 10px; 
   font-size: 15px; 
   }
   
