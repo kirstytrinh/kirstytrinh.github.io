@@ -1,5 +1,5 @@
 body {
-    font-family: 'lato';
+    font-family: 'sanfrancisco';
     font-size: 20px;
     background-color:whitesmoke;
 }
@@ -11,18 +11,23 @@ body {
 
 @font-face {
     font-family: "lato";
-    src: url('lato.woff') format('woff');
+    src: url('lato2.woff') format('woff');
 }
 
 @font-face {
     font-family: 'ivymode';
     src: url('ivymode2.woff') format('woff');
 }
+@font-face {
+    font-family: 'sanfrancisco';
+    src: url('sanfrancisco.woff') format('woff')
+}
 
 img {
     width: 100%;
     border-radius: 40px;
 }
+
 
 div.header {
     display: flex;
@@ -45,25 +50,30 @@ div.logo {
 div.nav {
     width: 50%;
     padding: 20px;
-    text-transform: lowercase;
     text-align: right;
-    font-size: 17px;
-    font-family: 'lato';
+    font-size: 16px;
+    font-family: 'sanfrancisco';
     display: inline;
 }
+
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
 
 div.nav a {
     margin-left: 40px;
 }
 
+a:hover {
+    outline: solid 5px blue;
+    padding: 10px;
+    }
+
 a { 
     color: black;
     text-decoration: none;
-}
-
-a:hover {
-outline: solid 5px blue;
-padding: 10px;
 }
 
 div.masthead {
@@ -88,6 +98,7 @@ div.keywords {
     font-size: 17px;
     padding-top: 100px;
     background-color: whitesmoke;
+    padding-bottom: 20px;
 }
 
 a.buttonkw { 
@@ -99,13 +110,25 @@ a.buttonkw {
     border-radius: 220px;
     margin-left: 40px;
 }
-
 div.container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     padding-top: 20px;
 }
+
+div.item {
+    width: 33.333%;
+    padding: 20px;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
 div.box {
     display: flex;
@@ -115,15 +138,17 @@ div.box {
     overflow: scroll;
 }
 
-div.item {
-    width: 33.333%;
-    padding: 20px;
-}
-
 div.pic {
     width: 24%;
     padding: 10px;
     margin-top: 10px;
+    height: 60vh;
+    flex-shrink: 0;
+}
+
+.pic img { 
+    height: 100%;
+    object-fit: cover;
 }
 
 div.pic.first {
@@ -155,7 +180,6 @@ div.back {
     font-size: 13px;
     margin-bottom: 0px;
 }
-
 
 div.about-text {
     line-height: 35px;
@@ -192,3 +216,33 @@ div.footer {
 div.footercol {
     width: 50%;
 }
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  background-color: rgb(229, 226, 226); 
+  color: black; 
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 40px; 
+  font-size: 15px; 
+  }
+  
+#myBtn:hover {
+    outline: solid 5px blue;
+  }
+
+
+  
+ 
+  
+  
+ 
+  
+
+  
+
