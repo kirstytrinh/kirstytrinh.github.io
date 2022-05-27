@@ -1,7 +1,8 @@
 body {
     font-family: 'lato';
     font-size: 20px;
-    background-color:whitesmoke;
+    background-color:black;
+    color: white;
 }
 
 @font-face {
@@ -30,7 +31,7 @@ div.header {
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 div.logo {
@@ -39,6 +40,7 @@ div.logo {
     padding: 20px;
     font-family: 'dream orphans';
     display: inline;
+    color: blue;
 }
 
 div.nav {
@@ -55,19 +57,19 @@ div.nav a {
 }
 
 div.nav a:hover {
-    outline: solid 5px blue;
+    outline: solid 5px green;
 }
 
 div.logo a:hover {
-    outline: solid 5px blue;
+    outline: solid 5px yellow;
 }
 
 div.keywords a:hover {
-    outline: solid 5px blue;
+    outline: solid 5px red;
 }
 
 a { 
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -91,12 +93,12 @@ div.keywords {
     text-align: center;
     font-size: 17px;
     padding-top: 100px;
-    background-color: whitesmoke;
+
     padding-bottom: 20px;
 }
 
 a.buttonkw { 
-    background-color: rgb(229, 226, 226);
+    outline: solid 3px white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -121,7 +123,7 @@ img.hover-shadow {
   }
   
 .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.277), 0 6px 20px 0 rgba(0, 0, 0, 0.273);
+    box-shadow: 0 4px 10px blue, 0 4px 20px 0 blue;
   }
 
 div.box {
@@ -186,7 +188,7 @@ div.item-des {
     text-align: left;
     padding-left: 15px;
     margin-top: -8px;
-    color: rgb(88, 87, 87);
+    color: rgb(119, 118, 118);
 }
 
 div.about-content1 {
@@ -196,7 +198,7 @@ div.about-content1 {
 }
 
 a.button {
-    background-color: rgb(229, 226, 226);
+    outline: solid 3px white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -205,7 +207,7 @@ a.button {
 }
 
 div.back a:hover {
-    outline: solid 5px blue;
+    outline: solid 5px orange;
 }
 
 div.back {
@@ -218,7 +220,7 @@ div.back {
 div.footer {
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid rgb(92, 92, 92);
     margin-top: 25vh;
     padding: 20px;
     font-size: 15px;
@@ -229,6 +231,10 @@ div.footercol {
     width: 50%;
 }
 
+div.footer a:hover {
+    outline: solid 5px green;
+}
+
 #myBtn {
   display: none; 
   position: fixed; 
@@ -236,8 +242,6 @@ div.footercol {
   right: 30px; 
   z-index: 99; 
   border: none; 
-  background-color: rgb(229, 226, 226); 
-  color: black; 
   cursor: pointer; 
   padding: 15px;
   border-radius: 10px; 
@@ -245,7 +249,7 @@ div.footercol {
   }
   
 #myBtn:hover {
-    outline: solid 5px blue;
+    outline: solid 5px yellow;
   }
 
 
