@@ -201,7 +201,7 @@ div.about-content1 {
 a.button {
     outline: solid 3px white;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
@@ -246,7 +246,7 @@ div.footer a:hover {
   cursor: pointer; 
   padding-left: 14px;
   padding-right: 14px;
-  padding-top: 10px;
+  padding-top: 16px;
   padding-bottom: 10px;
   border-radius: 10px; 
   font-size: 15px; 
@@ -256,18 +256,23 @@ div.footer a:hover {
     outline: solid 5px yellow;
   }
 
-  .arrow {
+  .arrow-up{
     border: solid black;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 4px;
-  }
-
-  .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
   
+  .arrow-left{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
  
   
   
