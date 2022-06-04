@@ -116,7 +116,7 @@ div.container {
 
 div.item {
     width: 33.33%;
-    padding: 60px;
+    padding: 50px;
 }
 
 img.hover-shadow {
@@ -127,6 +127,21 @@ img.hover-shadow {
     box-shadow: 0 4px 10px blue, 0 4px 20px 0 blue;
   }
 
+div.item-text {
+    font-size: 16px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left:  10px;
+    font-weight: bold;
+}
+
+div.item-des {
+    font-size: 13px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 10px;
+    color: rgb(119, 118, 118);
+}
 div.box {
     display: flex;
     flex-wrap: nowrap;
@@ -158,46 +173,70 @@ div.about-image {
     margin-left: 40px;
 }
 
-div.about-content {
+div.info-content {
     width: 60%;
     padding: 20px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+div.info-text {
+    line-height: 30px;
+    margin-left: 50px;
+    font-size: 18px;
+    align-items: flex-start;
+}
+
+div.info-title {
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 8px;
+}
+
+div.info-date {
+    text-align: right;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+div.info-location {
+    margin-left: 50px;
+    color: rgb(119, 118, 118);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+div.info-sense{
+    margin-left: 50px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+div.sense {
+padding-top: 20px;
+}
+
+div.about-content {
+    margin: auto;
+    margin-top: 115px;
+    width: 70%;
+}
+
+div.about-title {
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
 
 div.about-text {
     line-height: 30px;
     margin-left: 50px;
     font-size: 18px;
-    align-items: flex-end;
-}
-
-div.about-title {
-    line-height: 60px;
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 50px;
-}
-
-div.item-text {
-    font-size: 16px;
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-div.item-des {
-    font-size: 13px;
-    text-align: left;
-    padding-top: 8px;
-    padding-left: 20px;
-    color: rgb(119, 118, 118);
-}
-
-div.about-content1 {
-    margin: auto;
-    margin-top: 120px;
-    width: 70%;
+    align-items: flex-start;
 }
 
 .look img { 
@@ -206,15 +245,15 @@ div.about-content1 {
 } 
 
 div.look.first {
-    margin-left: 215px;
+    margin-left: 225px;
 }
 
 div.look {
-    width: 30%;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 20px;
-    height: 60vh;
+    width: 25%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    height: 50vh;
     flex-shrink: 0;
 }
 
@@ -235,7 +274,7 @@ div.back {
     line-height: 45px;
     margin-left: 50px;
     font-size: 13px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 div.footer {
