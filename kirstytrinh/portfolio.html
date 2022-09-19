@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> ktrnh </a>
+        </div>
+        <div class="nav">
+          <a href="about.html"> About </a> 
+          <a href="album.html"> Album </a>
+          <a href="portfolio.html"> Portfolio </a>
+      </div>
+    </div>
+
+<div class="container">
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+    
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="images/josh.jpg" alt="">
+    </div>
+
+    </div>
+  </div>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow-up"></i></button>
+ 
+    <div class="footer">
+        <div class="footercol"> 2200, A Future Record </div>
+        <div class="footercol"> Kirsty Trinh </div>
+        <div class="footercol"> <a href="about.html"> About </a> </div>
+        <div class="footercol"> Monash Art and Design </div>
+        <div class="footercol"> <a href="artefacts.html"> Artefacts </a></div>
+    </div>
+</body>
+  
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+</html>
