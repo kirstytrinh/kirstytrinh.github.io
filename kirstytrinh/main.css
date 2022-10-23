@@ -241,14 +241,14 @@ div.details {
 } 
 
 div.look.first {
-    margin-left: 225px;
+margin-left: 600px;
 }
 
 div.look {
     width: 25%;
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 50vh;
     flex-shrink: 0;
 }
