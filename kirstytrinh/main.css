@@ -235,6 +235,11 @@ div.about-text {
     align-items: flex-start;
 }
 
+div.pdf {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
 div.details {
     line-height: 30px;
     margin-left: 50px;
@@ -246,7 +251,8 @@ div.details {
 div.more-pic {
     margin-top: 40px;
     margin: 40px;
-
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .look img { 
@@ -298,6 +304,9 @@ div.footer {
     padding-bottom: 20px;
     font-size: 15px;
     line-height: 25px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
 }
 
 div.footercol {
