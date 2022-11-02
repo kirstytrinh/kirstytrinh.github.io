@@ -158,7 +158,7 @@ div.pic {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
-    height: 60vh;
+    height: 62vh;
     flex-shrink: 0;
 }
 
@@ -195,7 +195,7 @@ div.info-text {
     margin-left: 80px;
     font-size: 18px;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     width: 70%;
 }
 
@@ -214,8 +214,8 @@ div.info-title {
     font-weight: bolder;
     text-transform: uppercase;
     margin-left: 80px;
-    padding-bottom: 8px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 8px;
 }
 
 div.info-location {
@@ -240,7 +240,6 @@ div.info-question {
     font-weight: bold;
     margin-top: 20px;
 }
-
 
 div.about-content {
     margin: auto;
@@ -354,7 +353,7 @@ div.look5 {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
-    height: 61vh;
+    height: 58vh;
     flex-shrink: 0;
 }
 
@@ -363,12 +362,12 @@ div.first-look5 {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
-    height: 61vh;
+    height: 58vh;
     flex-shrink: 0;
 }
 
 a.button {
-    outline: solid 3px white;
+    background-color: rgb(181, 181, 181);
     padding-left: 10px;
     padding-right: 15px;
     padding-top: 5px;
@@ -437,7 +436,7 @@ div.footercol {
   }
   
   .arrow-left{
-    border: solid black;
+    border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
