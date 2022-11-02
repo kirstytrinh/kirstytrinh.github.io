@@ -101,16 +101,16 @@ div.container {
     flex-wrap: wrap;
     align-items: flex-end;
     padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 div.container2 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
-    padding-left: 60px;
     padding-right: 60px;
+    margin-left: 40px;
 }
 
 div.item {
@@ -144,11 +144,12 @@ div.item-des {
     padding-left: 10px;
     color: rgb(119, 118, 118);
 }
+
 div.box {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
     overflow: scroll;
 }
 
@@ -169,8 +170,15 @@ div.pic {
 div.pic.first {
     margin-left: 420px;
 }
+
 div.about-image {
     width: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+div.about-image2 {
+    width: 25%;
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -179,33 +187,46 @@ div.info-content {
     width: 70%;
     display: inline;
     margin-bottom: 20px;
+    margin-left: 80px;
 }
 
 div.info-text {
     line-height: 30px;
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 18px;
     align-items: flex-start;
     margin-bottom: 15px;
+    width: 70%;
+}
+
+div.info-link {
+    line-height: 30px;
+    margin-left: 80px;
+    font-size: 18px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-top: 40px;
 }
 
 div.info-title {
     font-size: 28px;
     font-weight: bolder;
     text-transform: uppercase;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-bottom: 8px;
+    margin-top: 10px;
 }
 
 div.info-location {
-    margin-left: 40px;
+    margin-left: 80px;
     color: rgb(119, 118, 118);
     font-size: 15px;
     padding-bottom: 25px;
 }
 
 div.info-heading {
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
@@ -214,15 +235,12 @@ div.info-heading {
 }
 
 div.info-question {
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
 }
 
-div.sense {
-padding-top: 20px;
-}
 
 div.about-content {
     margin: auto;
@@ -246,8 +264,9 @@ div.about-text {
 }
 
 div.pdf {
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 30px;
+    width: 70%;
 }
 
 div.details {
@@ -260,9 +279,10 @@ div.details {
 
 div.more-pic {
     margin-top: 40px;
-    margin: 40px;
+    margin-left: 80px;
     font-size: 18px;
     line-height: 30px;
+    width: 70%;
 }
 
 .look img { 
@@ -272,14 +292,78 @@ div.more-pic {
 
 div.look.first {
 margin-left: 600px;
+width: 25%;
 }
 
 div.look {
     width: 25%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 20px;
     height: 50vh;
+    flex-shrink: 0;
+}
+
+div.box2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 40px;
+    overflow: scroll;
+    margin-left: 60px;
+}
+
+div.look2 {
+    width: 37%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 50vh;
+    flex-shrink: 0;
+}
+
+div.box3{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: scroll;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+div.look3 {
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 55vh;
+    flex-shrink: 0;
+}
+
+div.look4 {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 40vh;
+    flex-shrink: 0;
+}
+
+div.look5 {
+    width: 49%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 61vh;
+    flex-shrink: 0;
+}
+
+div.first-look5 {
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 61vh;
     flex-shrink: 0;
 }
 
@@ -297,11 +381,10 @@ div.back a:hover {
 }
 
 div.back {
-    line-height: 45px;
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 13px;
     margin-bottom: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 div.footer {
@@ -345,7 +428,7 @@ div.footercol {
   }
 
   .arrow-up{
-    border: solid black;
+    border: solid white;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 4px;
