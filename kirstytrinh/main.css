@@ -184,9 +184,9 @@ div.info-content {
 div.info-text {
     line-height: 30px;
     margin-left: 40px;
-    padding-top: 10px;
     font-size: 18px;
     align-items: flex-start;
+    margin-bottom: 15px;
 }
 
 div.info-title {
@@ -201,13 +201,23 @@ div.info-location {
     margin-left: 40px;
     color: rgb(119, 118, 118);
     font-size: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
-div.info-sense{
-    margin-left: 50px;
+div.info-heading {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+div.info-question {
+    margin-left: 40px;
     font-size: 18px;
-    padding-top: 20px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 div.sense {
