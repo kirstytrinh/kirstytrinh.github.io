@@ -329,7 +329,7 @@ div.look2 {
 div.box3{
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: baseline;
     overflow: scroll;
     margin-left: 20px;
     margin-top: 20px;
@@ -354,7 +354,7 @@ div.look4 {
 }
 
 div.look5 {
-    width: 49%;
+    width: 49.5%;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
