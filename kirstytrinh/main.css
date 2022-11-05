@@ -282,7 +282,7 @@ div.details {
 }
 
 div.more-pic {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 80px;
     font-size: 18px;
     line-height: 30px;
@@ -388,6 +388,28 @@ div.first-look6 {
     height: 64vh;
     flex-shrink: 0;
 }
+
+div.box7{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 40px;
+    overflow: scroll;
+}
+
+div.look7 {
+    width: 34%;
+    padding-right: 20px;
+    height: 50vh;
+    flex-shrink: 0;
+} 
+
+div.look8 {
+    width: 30%;
+    padding-right: 20px;
+    height: 50vh;
+    flex-shrink: 0;
+} 
 
 a.button {
     background-color: rgb(181, 181, 181);
