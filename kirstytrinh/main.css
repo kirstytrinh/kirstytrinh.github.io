@@ -1,5 +1,5 @@
 body {
-    font-family: 'montserrat';
+    font-family: 'lato';
     font-size: 20px;
     background-color:whitesmoke;
     color: black;
@@ -20,11 +20,6 @@ body {
     src: url('lato2.woff') format('woff')
 }
 
-@font-face {
-    font-family: 'montserrat';
-    src: url('montserrat.woff') format('woff')
-}
-
 img {
     width: 100%;
     border-radius: 20px;
@@ -33,6 +28,7 @@ img {
 div.header {
     display: flex;
     flex-wrap: wrap;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -40,11 +36,10 @@ div.header {
 }
 
 div.logo {
-    font-size: 28px;
+    font-size: 24px;
     width: 50%;
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-bottom: 20px;
+    padding: 20px;
+    padding-left: 20px;
     font-family: 'dream orphans';
     display: inline;
     color: black;
@@ -52,21 +47,21 @@ div.logo {
 
 div.nav {
     width: 50%;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+    padding: 20px;
+    padding-right: 20px;
     text-align: right;
     font-size: 16px;
-    font-family: 'montserrat';
+    font-family: 'lato';
     display: inline;
 }
 
 div.nav a {
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
-a:hover {
-    color: #0057ba;
+
+ a:hover {
+    opacity: 50%;
 }
 
 a { 
@@ -74,34 +69,22 @@ a {
     text-decoration: none;
 }
 
-div.title {
-    width: 50%;
-    margin: auto;
-    padding-top: 200px;
-    font-family: 'montserrat';
-}
-
-div.subhead {
-    font-size: 60px;
+div.masthead {
+    font-size: 380px;
     text-align: left;
-    font-family: 'montserrat';
+    padding-left: 30px;
+    font-family: 'dream orphans';
     font-weight: bold;
-    color: #0057ba;
+    margin-top: -100px;
+    position: absolute;
 }
 
-div.description {
-    font-size: 30px;
-    text-align: left;
-    font-family: 'montserrat';
-    padding-top: 20px;
-    line-height: 45px;
-}
 
-div.small-text {
-    font-size: 15px;
-    text-align: left;
-    font-family: 'montserrat';
-    padding-top: 40px;
+div.keywords {
+    text-align: center;
+    font-size: 17px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 a.buttonkw { 
@@ -118,6 +101,7 @@ div.container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -125,17 +109,13 @@ div.container {
 div.container2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 div.item {
     width: 33.33%;
     padding: 40px;
-    filter: saturate(5%);
-}
-
-div.item:hover {
-    filter: none;
 }
 
 img.hover-shadow {
@@ -160,109 +140,180 @@ div.item-des {
     color: rgb(119, 118, 118);
 }
 
-div.hero-image {
+div.box {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 30px;
+    overflow: scroll;
+}
+
+div.box1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 30px;
+    height: 70vh;
+    overflow: scroll;
+}
+
+div.pic {
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 60vh;
+    flex-shrink: 0;
+}
+
+.pic img { 
+    height: 100%;
+    object-fit: cover;
+}
+
+
+div.pic.first {
+    margin-left: 420px;
+}
+
+div.about-image {
     width: 50%;
-    padding-top: 40px;
-    padding-left: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+div.about-image2 {
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 div.info-content {
     width: 70%;
     display: inline;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    margin-bottom: 20px;
+    margin-left: 80px;
 }
 
 div.info-text {
     line-height: 30px;
-    padding-left: 80px;
+    margin-left: 80px;
     font-size: 18px;
     align-items: flex-start;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     width: 70%;
 }
 
 div.info-link {
     line-height: 30px;
-    padding-left: 80px;
-    font-size: 1px;
+    margin-left: 80px;
+    font-size: 18px;
     align-items: flex-start;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     width: 70%;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 div.info-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bolder;
     text-transform: uppercase;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 8px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 8px;
 }
 
 div.info-location {
-    padding-left: 80px;
+    margin-left: 80px;
     color: rgb(119, 118, 118);
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 25px;
 }
 
 div.info-heading {
-    padding-left: 80px;
-    font-size: 18px;
+    margin-left: 80px;
+    font-size: 20px;
     font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 div.info-question {
-    padding-left: 80px;
+    margin-left: 80px;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 div.about-content {
     margin: auto;
-    width: 60%;
+    margin-top: 80px;
+    width: 70%;
+}
+
+div.about-title {
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
 
 div.about-text {
-    line-height: 35px;
-    padding-right: 50px;
-    padding-bottom: 10px;
+    line-height: 30px;
+    margin-left: 50px;
     font-size: 18px;
     align-items: flex-start;
 }
 
-div.about-image {
-    padding-left: 50px;
-    padding-top: 100px;
-    padding-bottom: 150px;
-    width: 25%;
-}
-
 div.pdf {
-    padding-left: 80px;
-    padding-top: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
     width: 70%;
 }
 
 div.details {
     line-height: 30px;
+    margin-left: 50px;
     font-size: 18px;
-    padding-top: 40px;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+div.red {
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 40px;
     align-items: flex-start;
 }
 
 div.more-pic {
-    padding-top: 20px;
-    padding-left: 80px;
+    margin-top: 20px;
+    margin-left: 80px;
     font-size: 18px;
     line-height: 30px;
     width: 70%;
+}
+
+.look img { 
+    height: 100%;
+    object-fit: cover;
+} 
+
+div.look.first {
+margin-left: 600px;
+width: 25%;
+}
+
+div.look {
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    height: 50vh;
+    flex-shrink: 0;
 }
 
 div.box2{
@@ -271,14 +322,14 @@ div.box2{
     align-items: center;
     padding-top: 40px;
     overflow: scroll;
-    padding-left: 60px;
+    margin-left: 60px;
 }
 
 div.look2 {
     width: 37%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 50vh;
     flex-shrink: 0;
 }
@@ -288,15 +339,15 @@ div.box3{
     flex-wrap: nowrap;
     align-items: baseline;
     overflow: scroll;
-    padding-left: 20px;
-    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 div.look3 {
     width: 25%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 60vh;
     flex-shrink: 0;
 }
@@ -305,7 +356,7 @@ div.look4 {
     width: 45%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 40vh;
     flex-shrink: 0;
 }
@@ -314,7 +365,7 @@ div.look5 {
     width: 49.5%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 65vh;
     flex-shrink: 0;
 }
@@ -323,16 +374,16 @@ div.first-look5 {
     width: 25%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 65vh;
     flex-shrink: 0;
 }
 
 div.look6 {
-    width: 47%;
+    width: 49%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 64vh;
     flex-shrink: 0;
 }
@@ -341,7 +392,7 @@ div.first-look6 {
     width: 25%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
     height: 64vh;
     flex-shrink: 0;
 }
@@ -378,25 +429,30 @@ a.button {
 }
 
 div.back a:hover {
-    background-color: #0057ba;
+    opacity: 50%;
 }
 
 div.back {
-    padding-left: 80px;
+    margin-left: 80px;
     font-size: 13px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     padding-top: 20px;
 }
 
+div.back2 {
+    margin-left: 80px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
 
 div.footer {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid rgb(186, 186, 186);
-    margin-top: 150px;
-    padding-left: 40px;
+    border-top: 1px solid rgb(59, 59, 59);
+    margin-top: 25vh;
+    padding: 20px;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     font-size: 15px;
     line-height: 25px;
     position: relative;
@@ -406,13 +462,7 @@ div.footer {
 
 div.footercol {
     width: 50%;
-    padding-top: 20px;
-}
-
-div.footer-text {
-    width: 50%;
-    padding-top: 20px; 
-    font-size: 14px;
+    padding-top: 10px;
 }
 
 #myBtn {
@@ -432,7 +482,7 @@ div.footer-text {
   }
   
 #myBtn:hover {
-    background-color: #0057ba;
+    opacity: 50%;
   }
 
   .arrow-up{
