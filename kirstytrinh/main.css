@@ -226,21 +226,29 @@ div.info-question {
 div.about-content {
     margin: auto;
     width: 60%;
+    justify-content: center;
+}
+
+div.about-title {
+    padding-right: 50px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    color: #0057ba;
 }
 
 div.about-text {
-    line-height: 35px;
+    line-height: 30px;
     padding-right: 50px;
     padding-bottom: 10px;
     font-size: 18px;
-    align-items: flex-start;
 }
 
 div.about-image {
     padding-left: 50px;
     padding-top: 100px;
     padding-bottom: 150px;
-    width: 25%;
+    width: 28%;
+    justify-content: center;
 }
 
 div.pdf {
@@ -250,7 +258,7 @@ div.pdf {
 }
 
 div.details {
-    line-height: 30px;
+    line-height: 40px;
     font-size: 18px;
     padding-top: 40px;
     align-items: flex-start;
