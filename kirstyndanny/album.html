@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> kirstyndanny </a>
+        </div>
+        <div class="nav">
+          <a href="album.html"> Album </a>
+      </div>
+    </div>
+
+    <div class="container2">
+        <!-- Left Section: List with Hover Images -->
+        <div class="left-section">
+          <ul class="hover-list">
+              <li>
+                  <a href="2025.html">2025</a>
+                  <img src="images/2025/kbday.JPG" alt="Image 1" class="hover-image">
+              </li>
+              <li>
+                  <a href="2024.html">2024 </a>
+                  <img src="images/2024/nye.JPG" alt="Image 2" class="hover-image">
+              </li>
+          </ul>
+      </div>
+
+      <!-- Right Section: Blog Content -->
+      <div class="right-section">
+          <div class="blog-title">Welcome to Our Love Story </div>
+          <div class="blog-content">
+              <p>We meet on Hinge</p>
+              <p>The End.</p>
+          </div>
+      </div> 
+      </div>
+
+    
+      
+
+   
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow-up"></i></button>
+ 
+  <div class="footer">
+    <div class="footer-text">
+        This is our love story. <br>
+        Three Kisses.
+    </div>
+</div>
+
+</body>
+  
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+</html>
+
